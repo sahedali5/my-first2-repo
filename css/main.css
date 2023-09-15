@@ -1,15 +1,44 @@
+body {
+    font-family: 'Merriweather', serif;
+    margin: 0%;
+
+}
+
 h1 {
-    color: darksalmon;
+    font-size: 50px;
 }
 
-h4 {
-    background-color: crimson;
+.color {
+    color: chocolate;
 }
 
-ul {
-    color: darkmagenta;
+section {
+    display: flex;
+
 }
 
-.been {
-    color: darkgray;
+.half-width {
+    width: 50%;
+    padding-left: 5%;
+    background-image: ;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    color: white;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 1.5em;
+
+}
+
+.top-banner {
+    background-image: url(/images/top-banner.png);
+    background-repeat: no-repeat;
+
 }
