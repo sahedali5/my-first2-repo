@@ -8,19 +8,23 @@ h1 {
     font-size: 50px;
 }
 
+p {
+    text-align: justify;
+}
+
 .color {
     color: chocolate;
 }
 
-section {
+.flexible-container {
     display: flex;
+    margin-bottom: 100px;
 
 }
 
 .half-width {
     width: 50%;
     padding-left: 5%;
-    background-image: ;
 }
 
 .half-width img {
@@ -41,4 +45,38 @@ section {
     background-image: url(/images/top-banner.png);
     background-repeat: no-repeat;
 
+}
+
+.right-bacground {
+    background-image: url(/images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.experience {
+    background-image: url(/images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.experience-item {
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 1em;
+    box-shadow: 20px 25px 50px gray;
+}
+
+#baby-developer {
+    border-left: 7px solid;
+    border-radius: 1em;
+    border-image: linear-gradient(lightblue, tomato);
+    border-image-slice: 1;
+}
+
+#full-web-developer {
+    border-left: 7px solid;
+    border-radius: 1em;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 1;
 }
